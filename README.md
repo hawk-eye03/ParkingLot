@@ -16,10 +16,9 @@ Note: As of now only Ticket Generation has been implemented in this repository.
 #### Run Locally
 Clone the project
 
-```git@github.com:hawk-eye03/ParkingLot.git```
+        git@github.com:hawk-eye03/ParkingLot.git
 
 Go to the project directory
 Type on terminal 
 
-```make run ```
-
+        make run

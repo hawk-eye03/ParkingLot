@@ -15,9 +15,6 @@ func NewTicketController(ts services.TicketService) *TicketController {
 	}
 }
 
-// func (t *TicketController) GenerateTicket(vehicle models.Vehicle, gate models.Gate) {}
-
-// vehicle might not be present in the system before hand so we need to take complete vehicle details
 func (t *TicketController) GenerateTicket(req dtos.GenerateTicketRequestDto) *dtos.GenerateTicketResponseDto {
 	vehicleType := req.GetVehicleType()
 	vehicleNumber := req.GetVehicleNumber()
